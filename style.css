@@ -10,4 +10,77 @@
     background-color: #D4D3BA;
     font-family: 'Istok Web', 'Hind Kochi', 'Gothic A1', Calibri;
   }
+
+  /*header*/
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  #headerLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+
+  /*headline*/
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    font-size: 300%;
+  }
+
+  /*projects*/
+  #projects {
+    display: flex;
+    flex-direction: column;
+    height: 1560px;
+    justify-content: center;
+  }
+
+  #b {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #projects #projectBox {
+    background-color: blanchedalmond;
+    height: 600px;
+    width: 600px;
+    margin: 30px;
+    border-radius: 30px;
+  }
+
+  /*contact*/
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 456px;
+  }
+
+  /*footer*/
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #footer #footerName {
+    font-weight: bold;
+  }
+
+  #footer img {
+    height: 30px;
+  }
   
