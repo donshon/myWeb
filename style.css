@@ -17,12 +17,15 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
+    height: 80px;
   }
 
   #headerLinks {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100px;
+    height: 100%;
   }
 
   #header button {
