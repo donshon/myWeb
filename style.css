@@ -43,6 +43,18 @@
     color: white;
   }
 
+  .burger {
+    display: none;
+  }
+  
+  #burger {
+    display: none;
+  }
+
+  #burgerContact {
+    display: none;
+  }
+
   /*headline*/
   #hero {
     display: flex;
@@ -120,3 +132,81 @@
     height: 30px;
   }
   
+  /*PHONE*/
+  @media (max-width: 428px) {
+  .burgerMenu {
+      display: none;
+  }
+
+  .burger {
+    display: block;
+    font-size: 2em;
+    color: #D4D3BA;
+  }
+
+  #burger:checked + .burgerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; 
+    width: 50%;
+    right: 0;
+    top: 100px;
+  }
+
+  #contactButton {
+    display: none;
+  }
+
+  #hero {
+    font-size: 200%;
+  }
+
+  #projects #projectBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px 0 20px;
+    background-color: blanchedalmond;
+    height: 370px;
+    width: 310px;
+    margin: 30px;
+    border-radius: 30px;
+    font-size: 120%;
+    -webkit-box-shadow: 3px -1px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -1px 26px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px -1px 26px 0px rgba(0,0,0,0.75);
+  }
+
+  #projectBox img {
+    border-radius: 10px;
+    width: 87%;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 275px;
+    padding-left: 100px;
+    font-size: 120%;
+  }
+  
+  #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 198px;
+    padding: 50px 0 50px 0;
+  }
+
+  #footer p {
+    order: 3;
+  }
+
+  #footer #socials {
+    order: 2;
+  }
+
+}
