@@ -10,3 +10,36 @@ html, body {
     background-color: #D4D3BA;
     font-family: 'Istok Web', 'Hind Kochi', 'Gothic A1', Calibri;
   }
+
+  .pfp {
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #F0F0F0;
+}
+
+.items-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.item h3 {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
